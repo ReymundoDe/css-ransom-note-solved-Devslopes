@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -59,7 +61,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +70,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +79,708 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-size: 45px;
+  font-weight: bolder;
+  color: blueviolet;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-family: "Bitcount Grid Double Ink";
 }
 
 .didILetter {
+  font-size: 20px;
+  font-weight: lighter;
+  color: purple;
+  text-decoration: solid;
+  text-transform: lowercase;
+  font-family: "Satisfy";
 }
 
 .didDTwoLetter {
+  font-size: 65px;
+  font-weight: bold;
+  color: chartreuse;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 30px;
+  font-weight: initial;
+  color: cornflowerblue;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Raleway Dots";
 }
 
 .theHLetter {
+  font-size: 55px;
+  font-weight: bolder;
+  color: thistle;
+  text-decoration: dashed;
+  text-transform: lowercase;
+  font-family: "Ceviche One";
 }
 
 .theELetter {
+  font-size: 75px;
+  font-weight: normal;
+  color: darkslategray;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 34px;
+  font-weight: bolder;
+  color: maroon;
+  text-decoration: double;
+  text-transform: lowercase;
+  font-family: "Yesteryear";
 }
 
 .frontendRLetter {
+  font-size: 47px;
+  font-weight: 500;
+  color: mediumblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 
 .frontendOLetter {
+  font-size: 77px;
+  font-weight: 350;
+  color: burlywood;
+  text-decoration: solid;
+  text-transform: none;
+  font-family: "Raleway Dots";
 }
 
 .frontendNLetter {
+  font-size: 52px;
+  font-weight: 880;
+  color: aquamarine;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 
 .frontendTLetter {
+  font-size: 89px;
+  font-weight: 640;
+  color: deepskyblue;
+  text-decoration: dashed;
+  text-transform: lowercase;
+  font-family: "Ceviche One";
 }
 
 .frontendELetter {
+  font-size: 22px;
+  font-weight: 360;
+  color: silver;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 
 .frontendNTwoLetter {
+  font-size: 98px;
+  font-weight: 990;
+  color: darkslategray;
+  text-decoration: solid;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 
 .frontendDLetter {
+  font-size: 67px;
+  font-weight: 110;
+  color: navy;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 43px;
+  font-weight: 840;
+  color: darkgoldenrod;
+  text-decoration: wavy;
+  text-transform: lowercase;
+  font-family: "Yesteryear";
 }
 .developerELetter {
+  font-size: 81px;
+  font-weight: 620;
+  color: darkmagenta;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-family: "Piazzolla";
 }
 .developerVLetter {
+  font-size: 33px;
+  font-weight: 270;
+  color: chocolate;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Ceviche One";
 }
 .developerETwoLetter {
+  font-size: 51px;
+  font-weight: 540;
+  color: khaki;
+  text-decoration: double;
+  text-transform: capitalize;
+  font-family: "Satisfy";
 }
 .developerLLetter {
+  font-size: 69px;
+  font-weight: 790;
+  color: steelblue;
+  text-decoration: dotted;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .developerOLetter {
+  font-size: 33px;
+  font-weight: 420;
+  color: deeppink;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .developerPLetter {
+  font-size: 65px;
+  font-weight: 650;
+  color: crimson;
+  text-decoration: dashed;
+  text-transform: capitalize;
+  font-family: "Yesteryear";
 }
 .developerEThreeLetter {
+  font-size: 44px;
+  font-weight: 440;
+  color: goldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .developerRLetter {
+  font-size: 67px;
+  font-weight: bolder;
+  color: orangered;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 77px;
+  font-weight: 770;
+  color: lightsalmon;
+  text-decoration: dashed;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .takeALetter {
+  font-size: 43px;
+  font-weight: 540;
+  color: azure;
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-family: "Ceviche One";
 }
 .takeKLetter {
+  font-size: 29px;
+  font-weight: 760;
+  color: slateblue;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .takeELetter {
+  font-size: 76px;
+  font-weight: 420;
+  color: fuchsia;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 19px;
+  font-weight: 220;
+  color: sienna;
+  text-decoration: dashed;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .upPLetter {
+  font-size: 58px;
+  font-weight: bolder;
+  color: blanchedalmond;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: medium;
+  font-weight: 390;
+  color: plum;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .gardeningALetter {
+  font-size: xx-large;
+  font-weight: 790;
+  color: green;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 .gardeningRLetter {
+  font-size: small;
+  font-weight: 460;
+  color: gray;
+  text-decoration: dotted;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .gardeningDLetter {
+  font-size: x-large;
+  font-weight: 670;
+  color: darkorchid;
+  text-decoration: double;
+  text-transform: capitalize;
+  font-family: "Yesteryear";
 }
 .gardeningELetter {
+  font-size: 60px;
+  font-weight: 800;
+  color: darkorange;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .gardeningNLetter {
+  font-size: 35px;
+  font-weight: 320;
+  color: peru;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .gardeningILetter {
+  font-size: 50px;
+  font-weight: 920;
+  color: powderblue;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .gardeningNTwoLetter {
+  font-size: 10px;
+  font-weight: bolder;
+  color: lightgoldenrodyellow;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 .gardeningGTwoLetter {
+  font-size: 99px;
+  font-weight: 100;
+  color: darkorchid;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 26px;
+  font-weight: 500;
+  color: darkslategrey;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 .becauseELetter {
+  font-size: 77px;
+  font-weight: 450;
+  color: springgreen;
+  text-decoration: dashed;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .becauseCLetter {
+  font-size: 10px;
+  font-weight: 920;
+  color: wheat;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .becauseALetter {
+  font-size: 90px;
+  font-weight: 220;
+  color: orchid;
+  text-decoration: double;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .becauseULetter {
+  font-size: 48px;
+  font-weight: 670;
+  color: greenyellow;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 .becauseSLetter {
+  font-size: 95px;
+  font-weight: 170;
+  color: honeydew;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .becauseETwoLetter {
+  font-size: 37px;
+  font-weight: 760;
+  color: lavenderblush;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 65px;
+  font-weight: 390;
+  color: cadetblue;
+  text-decoration: solid;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .theyHLetter {
+  font-size: 23px;
+  font-weight: 890;
+  color: burlywood;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .theyELetter {
+  font-size: 56px;
+  font-weight: 890;
+  color: navy;
+  text-decoration: wavy;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .theyYLetter {
+  font-size: 89px;
+  font-weight: 340;
+  color: mediumorchid;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 47px;
+  font-weight: 640;
+  color: midnightblue;
+  text-decoration: dotted;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .wantedALetter {
+  font-size: 69px;
+  font-weight: 890;
+  color: cornsilk;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 .wantedNLetter {
+  font-size: 34px;
+  font-weight: 680;
+  color: black;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .wantedTLetter {
+  font-size: 76px;
+  font-weight: 230;
+  color: darkorange;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .wantedELetter {
+  font-size: 5px;
+  font-weight: 999;
+  color: indianred;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .wantedDLetter {
+  font-size: 90px;
+  font-weight: 440;
+  color: palegreen;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 
 /* TO word */
 
 .toTLetter {
+  font-size: 45px;
+  font-weight: 680;
+  color: aliceblue;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .toOLetter {
+  font-size: 71px;
+  font-weight: 98;
+  color: peachpuff;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 36px;
+  font-weight: 679;
+  color: lawngreen;
+  text-decoration: dashed;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .improveMLetter {
+  font-size: 78px;
+  font-weight: 430;
+  color: mintcream;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .improvePLetter {
+  font-size: 12px;
+  font-weight: 720;
+  color: ghostwhite;
+  text-decoration: double;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .improveRLetter {
+  font-size: 59px;
+  font-weight: 890;
+  color: deeppink;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 .improveOLetter {
+  font-size: 98px;
+  font-weight: 430;
+  color: green;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .improveVLetter {
+  font-size: 28px;
+  font-weight: 980;
+  color: darkcyan;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 .improveELetter {
+  font-size: 65px;
+  font-weight: 370;
+  color: lemonchiffon;
+  text-decoration: solid;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 15px;
+  font-weight: 600;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .theirHLetter {
+  font-size: 87px;
+  font-weight: 800;
+  color: mediumvioletred;
+  text-decoration: wavy;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .theirELetter {
+  font-size: 54px;
+  font-weight: 320;
+  color: palevioletred;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 .theirILetter {
+  font-size: 10px;
+  font-weight: 740;
+  color: pink;
+  text-decoration: dotted;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .theirRLetter {
+  font-size: 90px;
+  font-weight: 650;
+  color: olivedrab;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 33px;
+  font-weight: 870;
+  color: palegoldenrod;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .rootOLetter {
+  font-size: 76px;
+  font-weight: 540;
+  color: limegreen;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .rootOTwoLetter {
+  font-size: 48px;
+  font-weight: 970;
+  color: red;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .rootTLetter {
+  font-size: 81px;
+  font-weight: 230;
+  color: rosybrown;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 43px;
+  font-weight: 780;
+  color: snow;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Bitcount Grid Double Ink";
 }
 .skillsKLetter {
+  font-size: 76px;
+  font-weight: 320;
+  color: cadetblue;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: "Yesteryear";
 }
 .skillsILetter {
+  font-size: 14px;
+  font-weight: 580;
+  color: aqua;
+  text-decoration: wavy;
+  text-transform: lowercase;
+  font-family: "Piazzolla";
 }
 .skillsLLetter {
+  font-size: 87px;
+  font-weight: 990;
+  color: dimgray;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  font-family: "Satisfy";
 }
 .skillsLTwoLetter {
+  font-size: 34px;
+  font-weight: 570;
+  color: lavender;
+  text-decoration: dotted;
+  text-transform: lowercase;
+  font-family: "Raleway Dots";
 }
 .skillsSTwoLetter {
+  font-size: 91px;
+  font-weight: 991;
+  color: navajowhite;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Ceviche One";
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 75px;
+  color: orchid;
 }
 .exclamation-mark {
+  font-size: 85px;
+  color: crimson;
 }
 .question-mark {
+  font-size: 95px;
+  color: mediumpurple;
 }
